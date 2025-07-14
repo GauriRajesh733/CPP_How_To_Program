@@ -27,6 +27,8 @@ void Bank::createAccount()
 	cout << "Enter Password: ";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	getline(cin, password);
+
+	// NOTE: created w new keyword so it is not destroyed at end of scope or createAccount()
 	BankAccount* newAccount = new BankAccount(++totalAccounts, name, balance);
 
 	if (totalAccounts > capacity) {

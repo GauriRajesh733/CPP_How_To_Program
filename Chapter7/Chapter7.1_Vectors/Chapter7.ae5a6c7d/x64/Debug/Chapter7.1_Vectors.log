@@ -1,0 +1,4 @@
+﻿Chapter7.1_Vectors.obj : error LNK2019: unresolved external symbol "void __cdecl inputVector(class std::vector<int,class std::allocator<int> > &)" (?inputVector@@YAXAEAV?$vector@HV?$allocator@H@std@@@std@@@Z) referenced in function main
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl inputVector(class std::vector<int,class std::allocator<int> > const &)" (?inputVector@@YAXAEBV?$vector@HV?$allocator@H@std@@@std@@@Z)
+D:\gauri\cpp\CPP_How_To_Program\Chapter7.1_Vectors\x64\Debug\Chapter7.1_Vectors.exe : fatal error LNK1120: 1 unresolved externals

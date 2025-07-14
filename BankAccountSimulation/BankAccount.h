@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <vector>
 using namespace std;
 
 class BankAccount
@@ -19,5 +20,6 @@ private:
 	int accountNum;
 	string ownerName;
 	double balance;
+	vector<string> actions;
 };
 

@@ -54,6 +54,7 @@ int main()
             case 9:
                 cout << "Thank you for using SimpleBank!" << endl;
                 run = false;
+                break;
             default:
                 cout << "Invalid choice number, please try again." << endl;
             }

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|solutionrelative:BankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|solutionrelative:BankAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\Bank.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|solutionrelative:Bank.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,17 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccountSimulation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|solutionrelative:BankAccountSimulation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|solutionrelative:BankAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48B426D1-05DB-4767-850F-99986F146523}|BankAccountSimulation.vcxproj|solutionrelative:BankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\throw_bad_alloc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Bank.h",
               "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\Bank.h",
               "RelativeDocumentMoniker": "Bank.h",
               "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\Bank.h",
               "RelativeToolTip": "Bank.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-07-14T12:47:35.603Z",
               "IsPinned": true,
@@ -51,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Bank.cpp",
               "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\Bank.cpp",
               "RelativeDocumentMoniker": "Bank.cpp",
               "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\Bank.cpp",
               "RelativeToolTip": "Bank.cpp",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAawI4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAB4AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-14T13:09:12.227Z",
               "IsPinned": true,
@@ -65,44 +62,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "throw_bad_alloc.cpp",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-14T14:35:02.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "BankAccount.cpp",
               "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccount.cpp",
               "RelativeDocumentMoniker": "BankAccount.cpp",
               "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccount.cpp",
               "RelativeToolTip": "BankAccount.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-14T13:29:54.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BankAccount.h",
               "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccount.h",
               "RelativeDocumentMoniker": "BankAccount.h",
               "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccount.h",
               "RelativeToolTip": "BankAccount.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-07-14T12:33:14.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BankAccountSimulation.cpp",
               "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\BankAccountSimulation\\BankAccountSimulation.cpp",
               "RelativeDocumentMoniker": "BankAccountSimulation.cpp",
@@ -110,8 +96,7 @@
               "RelativeToolTip": "BankAccountSimulation.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-14T01:10:12.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T01:10:12.905Z"
             }
           ]
         }
