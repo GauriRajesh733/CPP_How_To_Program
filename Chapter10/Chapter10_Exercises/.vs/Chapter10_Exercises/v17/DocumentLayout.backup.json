@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A597C4AE-8679-4E90-862F-802A5E4AAD48}|Chapter10_Exercises.vcxproj|D:\\GAURI\\CPP\\CPP_HOW_TO_PROGRAM\\CHAPTER10\\CHAPTER10_EXERCISES\\ENTITY.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A597C4AE-8679-4E90-862F-802A5E4AAD48}|Chapter10_Exercises.vcxproj|solutionrelative:ENTITY.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A597C4AE-8679-4E90-862F-802A5E4AAD48}|Chapter10_Exercises.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\Chapter10_Exercises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A597C4AE-8679-4E90-862F-802A5E4AAD48}|Chapter10_Exercises.vcxproj|solutionrelative:Chapter10_Exercises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A597C4AE-8679-4E90-862F-802A5E4AAD48}|Chapter10_Exercises.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\DoubleSubscriptedArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A597C4AE-8679-4E90-862F-802A5E4AAD48}|Chapter10_Exercises.vcxproj|solutionrelative:DoubleSubscriptedArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A597C4AE-8679-4E90-862F-802A5E4AAD48}|Chapter10_Exercises.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\DoubleSubscriptedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A597C4AE-8679-4E90-862F-802A5E4AAD48}|Chapter10_Exercises.vcxproj|solutionrelative:DoubleSubscriptedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Entity.h",
+              "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\Entity.h",
+              "RelativeDocumentMoniker": "Entity.h",
+              "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\Entity.h*",
+              "RelativeToolTip": "Entity.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-14T17:24:25.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoubleSubscriptedArray.cpp",
+              "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\DoubleSubscriptedArray.cpp",
+              "RelativeDocumentMoniker": "DoubleSubscriptedArray.cpp",
+              "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\DoubleSubscriptedArray.cpp",
+              "RelativeToolTip": "DoubleSubscriptedArray.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-14T17:13:14.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoubleSubscriptedArray.h",
+              "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\DoubleSubscriptedArray.h",
+              "RelativeDocumentMoniker": "DoubleSubscriptedArray.h",
+              "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\DoubleSubscriptedArray.h",
+              "RelativeToolTip": "DoubleSubscriptedArray.h",
+              "ViewState": "AgIAABEAAAAAAAAAAIAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-14T17:05:52.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chapter10_Exercises.cpp",
+              "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\Chapter10_Exercises.cpp",
+              "RelativeDocumentMoniker": "Chapter10_Exercises.cpp",
+              "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter10\\Chapter10_Exercises\\Chapter10_Exercises.cpp",
+              "RelativeToolTip": "Chapter10_Exercises.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-14T17:05:25.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
