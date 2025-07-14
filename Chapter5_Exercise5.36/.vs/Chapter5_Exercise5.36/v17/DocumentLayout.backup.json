@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter5_Exercise5.36\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2D3E79-ACCA-4AA9-B070-8413A33FA08D}|Chapter5_Exercise5.36.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter5_Exercise5.36\\Chapter5_Exercise5.36.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED2D3E79-ACCA-4AA9-B070-8413A33FA08D}|Chapter5_Exercise5.36.vcxproj|solutionrelative:Chapter5_Exercise5.36.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_string_view.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "__msvc_string_view.hpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_string_view.hpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_string_view.hpp",
+              "ViewState": "AgIAAMQBAAAAAAAAAADgv8wBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-29T14:05:28.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chapter5_Exercise5.36.cpp",
+              "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter5_Exercise5.36\\Chapter5_Exercise5.36.cpp",
+              "RelativeDocumentMoniker": "Chapter5_Exercise5.36.cpp",
+              "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter5_Exercise5.36\\Chapter5_Exercise5.36.cpp",
+              "RelativeToolTip": "Chapter5_Exercise5.36.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-29T13:28:32.078Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
