@@ -3,9 +3,12 @@
 #include "Bank.h"
 using namespace std;
 
+// The purpose of this bank account simulation was to practice my understanding of pointers by implementing dynamic
+// memory allocation to store accounts and inheritance by creating savings as well checking account types that derive 
+// from the base bank account class.  
 int main()
 {
-    int option;
+    string option;
     cout << "Welcome to SimpleBank!" << endl;
     Bank bank;
     bool run = true;
@@ -26,38 +29,37 @@ int main()
         cout << "Enter Choice Number: ";
         cin >> option;
 
-        switch (option) {
-            case 1:
-                bank.createAccount();
-                break;
-            case 2:
-                bank.login();
-                break;
-            case 3:
-                bank.deposit();
-                break;
-            case 4:
-                bank.withdraw();
-                break;
-            case 5:
-                bank.displayAccount();
-                break;
-            case 6:
-                bank.applyInterest();
-                break;
-            case 7:
-                bank.listAccounts();
-                break;
-            case 8:
-                bank.logout();
-                break;
-            case 9:
-                cout << "Thank you for using SimpleBank!" << endl;
-                run = false;
-                break;
-            default:
-                cout << "Invalid choice number, please try again." << endl;
-            }
+        if (option == "1") {
+            bank.createAccount();
+        }
+        else if (option == "2") {
+            bank.login();
+        }
+        else if (option == "3") {
+            bank.credit();
+        }
+        else if (option == "4") {
+            bank.debit();
+        }
+        else if (option == "5") {
+            bank.displayAccount();
+        }
+        else if (option == "6") {
+            bank.applyInterest();
+        }
+        else if (option == "7") {
+            bank.listAccounts();
+        }
+        else if (option == "8") {
+            bank.logout();
+        }
+        else if (option == "9") {
+            cout << "Thank you for using SimpleBank!" << endl;
+            run = false;
+        }
+        else {
+            cout << "Invalid choice number, please try again." << endl;
+        }
 
     }
     

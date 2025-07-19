@@ -3,14 +3,19 @@
 
 using namespace std;
 
-BankAccount::BankAccount(int account, string owner, double initialBalance)
+BankAccount::BankAccount(int account, string user, double initialBalance)
 {
 	accountNum = account;
-	ownerName = owner;
-	balance = initialBalance;
+	username = user;
+	if (initialBalance < 0) {
+		cout << "Initial balance cannot be negative, set to $0.00.";
+	}
+
+	balance = initialBalance < 0.00 ? 0.00 : initialBalance;
+
 }
 
-void BankAccount::deposit(double amount) {
+void BankAccount::credit(double amount) {
 	if (amount < 0) {
 		cout << "Deposit amount cannot be negative." << endl;
 		return;
@@ -20,7 +25,7 @@ void BankAccount::deposit(double amount) {
 	actions.push_back("Deposited $" + to_string(amount) + ".");
 }
 
-void BankAccount::withdraw(double amount) {
+void BankAccount::debit(double amount) {
 	if (amount < 0) {
 		cout << "Cannot withdraw negative amount." << endl;
 		return;
@@ -35,17 +40,20 @@ void BankAccount::withdraw(double amount) {
 	actions.push_back("Withdrew $" + to_string(amount) + ".");
 }
 
-void BankAccount::applyInterest(double rate) {
-	balance = balance + balance * rate;
-	cout << "Interest Applied To Account #" << accountNum;
-	actions.push_back("Applied " + to_string(rate) + " interest.");
+string BankAccount::getUsername()
+{
+	return username;
+}
 
+int BankAccount::getAccountNumber()
+{
+	return accountNum;
 }
 
 ostream& operator<<(ostream& output, BankAccount acc)
 {
 	output << "Account #" << acc.accountNum << ":" << endl;
-	output << "Owner: " << acc.ownerName << endl;
+	output << "Username: " << acc.username << endl;
 	output << "Balance: " << acc.balance << endl;
 	// add transactions
 

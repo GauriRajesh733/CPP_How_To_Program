@@ -1,5 +1,8 @@
 #include "Bank.h"
 #include <iostream>
+#include "SavingsAccount.h"
+#include "CheckingAccount.h"
+
 using namespace std;
 
 
@@ -15,21 +18,70 @@ Bank::Bank(double rate)
 
 void Bank::createAccount()
 {
-	string name;
+	string username;
 	double balance;
 	string password;
+	string savings;
+	bool isSavings;
 
-	cout << "Enter Name: ";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
-	getline(cin, name);
-	cout << "Enter Initial Deposit: ";
-	cin >> balance;
+	while (true) {
+		cout << "Enter Username: ";
+		getline(cin, username); // no cin.ignore needed here
+
+		// NOTE: no need for cignore here because getline handles it
+		if (logins.find(username) != logins.end()) {
+			cout << "Account with username already exists, please enter a new username." << endl;
+		}
+		else {
+			break;
+		}
+	}
+
+	while (true) {
+		cout << "Enter Initial Deposit: ";
+		cin >> balance;
+
+		// check if balance is double amount
+		if (cin.fail()) {
+			cout << "Invalid initial deposit, please enter a valid amount." << endl;
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		}
+		else {
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+			break;
+		}
+	}
+
 	cout << "Enter Password: ";
-	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	getline(cin, password);
 
-	// NOTE: created w new keyword so it is not destroyed at end of scope or createAccount()
-	BankAccount* newAccount = new BankAccount(++totalAccounts, name, balance);
+	while (true) {
+		cout << "Enter 'S' for savings account and 'C' for checking account: ";
+		cin >> savings;
+
+		if (savings != "S" && savings != "C") {
+			cout << "Please enter S or C to specify account type." << endl;
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		}
+		else {
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+			break;
+		}
+	}
+
+	isSavings = (savings == "S");
+
+	BankAccount* newAccount;
+
+	if (isSavings) {
+		newAccount = new SavingsAccount(++totalAccounts, username, balance);
+	}
+	else {
+		newAccount = new CheckingAccount(++totalAccounts, username, balance);
+	}
 
 	if (totalAccounts > capacity) {
 		cout << "Doubling bank account capacity to accomodate new account." << endl;
@@ -49,15 +101,23 @@ void Bank::createAccount()
 		accounts[totalAccounts - 1] = newAccount;
 	}
 
-	logins.insert({ totalAccounts, password });
-	cout << "Bank Account #" << totalAccounts << " created." << endl;
+	logins.insert({ username, password });
+	cout << "Username: " << username << " Password: " << logins[username] << endl;
+
+	if (isSavings) {
+		cout << "Savings Bank Account #" << totalAccounts << " created." << endl;
+
+	}
+	else {
+		cout << "Checking Bank Account #" << totalAccounts << " created." << endl;
+	}
 
 }
 
-void Bank::deposit()
+void Bank::credit()
 {
 	if (currentAccount == 0) {
-		cout << "Please specify or create an account before depositing amount." << endl;
+		cout << "Please log into account before depositing amount." << endl;
 		return;
 	}
 
@@ -65,13 +125,13 @@ void Bank::deposit()
 	cout << "Enter Deposit Amount: ";
 	cin >> amount;
 
-	accounts[currentAccount - 1]->deposit(amount);
+	accounts[currentAccount - 1]->credit(amount);
 }
 
-void Bank::withdraw()
+void Bank::debit()
 {
 	if (currentAccount == 0) {
-		cout << "Please specify or create an account before withdrawing amount." << endl;
+		cout << "Please log into account before withdrawing amount." << endl;
 		return;
 	}
 
@@ -79,23 +139,29 @@ void Bank::withdraw()
 	cout << "Enter Amount to Withdraw: ";
 	cin >> amount;
 
-	accounts[currentAccount - 1]->withdraw(amount);
+	accounts[currentAccount - 1]->debit(amount);
 }
 
 void Bank::applyInterest()
 {
 	if (currentAccount == 0) {
-		cout << "Please specify or create an account before applying interest." << endl;
+		cout << "Please log into account before applying interest." << endl;
 		return;
 	}
 
-	accounts[currentAccount - 1]->applyInterest(interestRate);
+	SavingsAccount* savingsAccount = dynamic_cast<SavingsAccount*> (accounts[currentAccount - 1]);
+	if (savingsAccount == nullptr) {
+		cout << "Cannot apply interest to checking account." << endl;
+		return;
+	}
+	
+	savingsAccount->applyInterest(interestRate);
 }
 
 void Bank::displayAccount()
 {
 	if (currentAccount == 0) {
-		cout << "Please specify or create an account before displaying details." << endl;
+		cout << "Please log into account before displaying details." << endl;
 		return;
 	}
 	cout << *accounts[currentAccount - 1];
@@ -117,26 +183,36 @@ void Bank::listAccounts()
 
 void Bank::login()
 {
-	int accountNum;
+	string username;
 	string password;
-	cout << "Enter Account #: ";
-	cin >> accountNum;
-	cout << "Enter Password: ";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+	cout << "Enter Username: ";
+	getline(cin, username);
+	cout << "Enter Password: ";
 	getline(cin, password);
 
-	if (logins.find(accountNum) == logins.end()) {
-		cout << "Bank Account #" << accountNum << " does not exist." << endl;
+	if (logins.find(username) == logins.end()) {
+		cout << "Bank Account with username " << username << " does not exist." << endl;
 		return;
 	}
 	
-	if (logins[accountNum] != password) {
+	if (logins[username] != password) {
 		cout << "Incorrect Password.  Please try again." << endl;
 		return;
 	}
 
-	currentAccount = accountNum;
-	cout << "Logged Into Account #" << currentAccount << endl;
+	for (int i = 0; i < totalAccounts; i++) {
+
+		if (accounts[i] && accounts[i]->getUsername() == username) {
+			currentAccount = accounts[i]->getAccountNumber();
+			cout << "Logged Into Account #" << accounts[i]->getAccountNumber() << endl;
+			return;
+		}
+	}
+
+	cout << "Bank Account with username " << username << " does not exist." << endl;
+	return;
 }
 
 void Bank::logout()

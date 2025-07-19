@@ -8,17 +8,19 @@ class BankAccount
 	friend ostream& operator<<(ostream&, BankAccount);
 public:
 	
-	BankAccount(int account, string ownerName, double balance = 0.0);
+	BankAccount(int account, string username, double balance = 0.0);
 
-	void deposit(double);
+	void credit(double);
 
-	void withdraw(double);
+	virtual void debit(double);
 
-	void applyInterest(double);
+	string getUsername();
 
-private:
+	int getAccountNumber();
+
+protected:
 	int accountNum;
-	string ownerName;
+	string username;
 	double balance;
 	vector<string> actions;
 };

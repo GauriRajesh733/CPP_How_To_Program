@@ -12,11 +12,10 @@ public:
 
 	void createAccount();
 
-	void deposit();
+	void credit();
 
-	void withdraw();
+	void debit();
 
-	// verify if savings account later! inheritance!
 	void applyInterest();
 
 	void displayAccount();
@@ -33,6 +32,6 @@ private:
 	int capacity;
 	int totalAccounts;
 	double interestRate;
-	map<int, string> logins;
+	map<string, string> logins;
 };
 
