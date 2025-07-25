@@ -1,0 +1,4 @@
+﻿  Chapter13_Exercises.cpp
+D:\gauri\cpp\CPP_How_To_Program\Chapter13\Chapter13_Notes\Chapter13_Exercises.cpp(35,39): warning C4101: 'e': unreferenced local variable
+D:\gauri\cpp\CPP_How_To_Program\Chapter13\Chapter13_Notes\Chapter13_Exercises.cpp(61,15): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+  Chapter13_Notes.vcxproj -> D:\gauri\cpp\CPP_How_To_Program\Chapter13\Chapter13_Notes\x64\Debug\Chapter13_Exercises.exe
