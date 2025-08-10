@@ -1,0 +1,3 @@
+D:/gauri/cpp/CPP_How_To_Program/RayTracing/build/CMakeFiles/hello.dir
+D:/gauri/cpp/CPP_How_To_Program/RayTracing/build/CMakeFiles/ALL_BUILD.dir
+D:/gauri/cpp/CPP_How_To_Program/RayTracing/build/CMakeFiles/ZERO_CHECK.dir

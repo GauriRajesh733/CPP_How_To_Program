@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\gauri\\cpp\\CPP_How_To_Program\\Custom_Heap_Allocator\\CustomAllocator_Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEB0E9B-74E7-4ABA-A7A8-96D2F0C9AB2A}|CustomAllocator_Test.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\Custom_Heap_Allocator\\CustomAllocator_Test\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDEB0E9B-74E7-4ABA-A7A8-96D2F0C9AB2A}|CustomAllocator_Test.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEB0E9B-74E7-4ABA-A7A8-96D2F0C9AB2A}|CustomAllocator_Test.vcxproj|D:\\GAURI\\CPP\\CPP_HOW_TO_PROGRAM\\CUSTOM_HEAP_ALLOCATOR\\CUSTOMALLOCATOR.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEB0E9B-74E7-4ABA-A7A8-96D2F0C9AB2A}|CustomAllocator_Test.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\Custom_Heap_Allocator\\CustomAllocator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomAllocator.h",
+              "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\Custom_Heap_Allocator\\CustomAllocator.h",
+              "RelativeDocumentMoniker": "..\\CustomAllocator.h",
+              "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\Custom_Heap_Allocator\\CustomAllocator.h",
+              "RelativeToolTip": "..\\CustomAllocator.h",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-10T02:45:55.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomAllocator.cpp",
+              "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\Custom_Heap_Allocator\\CustomAllocator.cpp",
+              "RelativeDocumentMoniker": "..\\CustomAllocator.cpp",
+              "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\Custom_Heap_Allocator\\CustomAllocator.cpp*",
+              "RelativeToolTip": "..\\CustomAllocator.cpp*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-10T02:45:53.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\Custom_Heap_Allocator\\CustomAllocator_Test\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\Custom_Heap_Allocator\\CustomAllocator_Test\\test.cpp*",
+              "RelativeToolTip": "test.cpp*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-10T02:40:40.261Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

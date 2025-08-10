@@ -1,0 +1,21 @@
+﻿  CustomAllocator.cpp
+  test.cpp
+D:\gauri\cpp\CPP_How_To_Program\Custom_Heap_Allocator\CustomAllocator.h(129,17): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'test.cpp')
+      D:\gauri\cpp\CPP_How_To_Program\Custom_Heap_Allocator\CustomAllocator.h(129,17):
+      the template instantiation context (the oldest one first) is
+          D:\gauri\cpp\CPP_How_To_Program\Custom_Heap_Allocator\CustomAllocator_Test\test.cpp(38,15):
+          see reference to function template instantiation 'T *CustomAllocator::allocateMemory<char,char>(char &&)' being compiled
+          with
+          [
+              T=char
+          ]
+  
+D:\gauri\cpp\CPP_How_To_Program\Custom_Heap_Allocator\CustomAllocator.h(132,14): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'test.cpp')
+  
+  Generating Code...
+D:\gauri\cpp\CPP_How_To_Program\Custom_Heap_Allocator\CustomAllocator.h(152,1): warning C4715: 'CustomAllocator::allocateMemory<double,double>': not all control paths return a value
+D:\gauri\cpp\CPP_How_To_Program\Custom_Heap_Allocator\CustomAllocator.h(152,1): warning C4715: 'CustomAllocator::allocateMemory<char,char>': not all control paths return a value
+D:\gauri\cpp\CPP_How_To_Program\Custom_Heap_Allocator\CustomAllocator.h(152,1): warning C4715: 'CustomAllocator::allocateMemory<int,int>': not all control paths return a value
+  CustomAllocator_Test.vcxproj -> D:\gauri\cpp\CPP_How_To_Program\Custom_Heap_Allocator\CustomAllocator_Test\x64\Debug\CustomAllocator_Test.exe

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter17\\Chapter17_Notes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28FFC276-F38B-44EE-A26F-7D2EA19CB238}|Chapter17_Notes.vcxproj|D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter17\\Chapter17_Notes\\Chapter17_Notes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28FFC276-F38B-44EE-A26F-7D2EA19CB238}|Chapter17_Notes.vcxproj|solutionrelative:Chapter17_Notes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chapter17_Notes.cpp",
+              "DocumentMoniker": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter17\\Chapter17_Notes\\Chapter17_Notes.cpp",
+              "RelativeDocumentMoniker": "Chapter17_Notes.cpp",
+              "ToolTip": "D:\\gauri\\cpp\\CPP_How_To_Program\\Chapter17\\Chapter17_Notes\\Chapter17_Notes.cpp*",
+              "RelativeToolTip": "Chapter17_Notes.cpp*",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAI0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T11:08:10.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

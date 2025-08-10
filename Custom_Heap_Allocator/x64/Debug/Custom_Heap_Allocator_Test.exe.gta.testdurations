@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>D:\gauri\cpp\CPP_How_To_Program\Custom_Heap_Allocator\x64\Debug\Custom_Heap_Allocator_Test.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="BasicTest.HandlesBasicTests" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
